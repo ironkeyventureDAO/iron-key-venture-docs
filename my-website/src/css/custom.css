@@ -1,0 +1,184 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #c9a227;
+  --ifm-color-primary-dark: #b5921f;
+  --ifm-color-primary-darker: #aa891d;
+  --ifm-color-primary-darkest: #8c7118;
+  --ifm-color-primary-light: #d4af37;
+  --ifm-color-primary-lighter: #d9b84a;
+  --ifm-color-primary-lightest: #e3c96f;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-background-color: #191919;
+  --ifm-font-color-base: #e0e0e0;
+}
+
+/* Notion-like dark theme */
+[data-theme='dark'] {
+  --ifm-color-primary: #c9a227;
+  --ifm-color-primary-dark: #b5921f;
+  --ifm-color-primary-darker: #aa891d;
+  --ifm-color-primary-darkest: #8c7118;
+  --ifm-color-primary-light: #d4af37;
+  --ifm-color-primary-lighter: #d9b84a;
+  --ifm-color-primary-lightest: #e3c96f;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-background-color: #191919;
+  --ifm-background-surface-color: #252525;
+  --ifm-navbar-background-color: #191919;
+  --ifm-footer-background-color: #191919;
+  --ifm-font-color-base: #e0e0e0;
+  --ifm-heading-color: #ffffff;
+}
+
+/* Force dark mode as default */
+:root {
+  color-scheme: dark;
+}
+
+/* Notion-style page layout */
+.markdown {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Notion-style headings */
+.markdown h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+}
+
+.markdown h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.markdown h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+/* Notion-style blockquotes */
+.markdown blockquote {
+  background: transparent;
+  border-left: 3px solid #c9a227;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+  color: #b0b0b0;
+  font-style: normal;
+}
+
+/* Notion-style horizontal rules */
+.markdown hr {
+  border: none;
+  border-top: 1px solid #333;
+  margin: 1.5rem 0;
+}
+
+/* Notion-style link cards */
+.markdown ul {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0;
+}
+
+.markdown ul li {
+  margin: 0.5rem 0;
+}
+
+.markdown ul li a {
+  display: block;
+  padding: 0.75rem 1rem;
+  background: #2d2d2d;
+  border-radius: 6px;
+  color: #e0e0e0;
+  text-decoration: none;
+  transition: background 0.2s ease, transform 0.1s ease;
+  border: 1px solid #3d3d3d;
+}
+
+.markdown ul li a:hover {
+  background: #3d3d3d;
+  transform: translateX(4px);
+  text-decoration: none;
+  color: #c9a227;
+}
+
+/* Notion-style admonitions/callouts */
+.alert--info {
+  background: #2d2d2d;
+  border: 1px solid #c9a227;
+  border-radius: 6px;
+  color: #e0e0e0;
+}
+
+.alert--info .admonition-heading h5 {
+  color: #c9a227;
+}
+
+/* Details/dropdown styling like Notion */
+details {
+  background: #2d2d2d;
+  border: 1px solid #3d3d3d;
+  border-radius: 6px;
+  padding: 0.75rem 1rem;
+  margin: 0.5rem 0;
+}
+
+details summary {
+  cursor: pointer;
+  color: #e0e0e0;
+  font-weight: 500;
+}
+
+details summary:hover {
+  color: #c9a227;
+}
+
+details[open] summary {
+  margin-bottom: 0.75rem;
+  border-bottom: 1px solid #3d3d3d;
+  padding-bottom: 0.5rem;
+}
+
+details p {
+  margin: 0.5rem 0;
+  color: #b0b0b0;
+}
+
+/* Navbar styling */
+.navbar {
+  background: #191919;
+  border-bottom: 1px solid #2d2d2d;
+}
+
+/* Sidebar styling */
+.menu {
+  background: #191919;
+}
+
+.menu__link {
+  color: #b0b0b0;
+}
+
+.menu__link:hover {
+  color: #c9a227;
+  background: #2d2d2d;
+}
+
+.menu__link--active {
+  color: #c9a227 !important;
+  background: #2d2d2d;
+}
