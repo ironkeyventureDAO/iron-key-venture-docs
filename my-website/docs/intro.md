@@ -15,6 +15,7 @@ sidebar_position: 1
 ---
 
 - 🔑 [Iron Key Ventures](./iron-key-ventures)
+- 🔑 [Iron Key Ventures Internal](./iron-key-ventures-internal)
 
 ---
 
