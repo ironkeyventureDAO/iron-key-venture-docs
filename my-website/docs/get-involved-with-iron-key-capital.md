@@ -1,10 +1,16 @@
 ---
-sidebar_position: 4.1
+sidebar_position: 4.6
 ---
 
-# Roles within Iron Key Capital
+# Get involved with Iron Key Capital
 
-<iframe src="https://bed7e0f76c0f4f0ab6960a2e9c1569ca.elf.site" width="100%" height="600" frameborder="0"></iframe>
+<iframe src="https://ee2091dff7d54dc29a6c141bf7689068.elf.site" width="100%" height="600" frameborder="0"></iframe>
+
+---
+
+## 👥 Private Market Playbook
+
+A no-frills, high-value course designed to help professionals understand startup investing at their own pace. This is the **first step** into the world of private markets.
 
 ---
 
@@ -16,27 +22,11 @@ Venture Partners are typically experienced angels or fundraisers who want to ear
 
 ---
 
-## 👥 Angel in-Residence (AIR) Fellows
+## 👥 Angel in-Residence(AIR) Fellows
 
 AIR Fellows want to learn the 0 to 1 angel investor skillset or break into VC. AIR Fellows typically have 5-10 years of experience in tech, startups, consulting, or an investment-focused field (IB, PE, VC, etc.). Fellows have direct access to our entire deal flow pipeline. They are entitled to carry sharing and have a seat on the Investment Committee.
 
 [**Apply here →**](https://airtable.com/appfCDlkorF5FL3VZ/pagnjuRX1A7gZjBGc/form)
-
----
-
-## 👥 Venture Builders
-
-Venture Builders are typically founders or technical talent who want to build something new and find early supporters. Venture Builders typically are repeat founders, or have spent too long at a FAANG company. Builders have direct access to the web3 / AI innovation at our Venture Studio, as well as the broader investor community.
-
-[**Apply here →**](https://airtable.com/appfCDlkorF5FL3VZ/paggWhwbIDwnmlzlK/form)
-
----
-
-## 👥 Entrepreneur in Residence (EIRs)
-
-EIR is a paid, invite only role within Iron Key's parent company, for those who want to build something new that is strategic to our mission of re-building financial services from the ground up. EIRs are typically repeat founders, and can bring a product vision to life. EIR positions are currently invite only, and typically originate from our pool of Venture Builders.
-
-[**Apply here →**](https://tally.so/r/mYdlg5)
 
 ---
 

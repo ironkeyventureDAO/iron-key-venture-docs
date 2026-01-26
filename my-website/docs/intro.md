@@ -22,13 +22,7 @@ sidebar_position: 1
 
 ---
 
-- 🔴 [Roles within Iron Key Capital](./roles-within-iron-key-capital)
-- 🔴 [Get involved with Iron Key Capital](./get-involved-with-iron-key-capital)
-- 🔴 [Investor Roles within Iron Key Capital](./investor-roles-within-iron-key-capital)
-
----
-
-- [Investment Club Core Contributor Page](./investment-club-core-contributor-page)
+- [Investment Club Core Contributor Page](./investment-club-core-contributor)
 
 ---
 
