@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkmy_website=globalThis.webpackChunkmy_website||[]).push([[1903],{1912(e){e.exports=JSON.parse('{"blogBasePath":"/iron-key-venture-docs/blog","blogTitle":"Blog","authorsListPath":"/iron-key-venture-docs/blog/authors"}')}}]);
