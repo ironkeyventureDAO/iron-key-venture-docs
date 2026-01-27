@@ -4,10 +4,6 @@ sidebar_position: 3.13
 
 # Our Business Development Committee
 
-:::tip Purpose
-💡 The purpose of this page is to document, track, and manage all business development activity for Iron Key. This page is maintained by the Head of Business Development and serves as the source of truth for BD strategy, execution, and resources.
-:::
-
 ---
 
 ## The Importance of Business Development to a VentureDAO
