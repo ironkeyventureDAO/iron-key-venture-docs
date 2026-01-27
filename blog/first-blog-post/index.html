@@ -1,18 +1,707 @@
-<!doctype html>
-<html lang="en" dir="ltr" class="blog-wrapper blog-post-page plugin-blog plugin-id-default" data-has-hydrated="false">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="generator" content="Docusaurus v3.9.2">
-<title data-rh="true">First Blog Post | Iron Key Ecosystem Resources</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://ironkeyventuredao.github.io/iron-key-venture-docs/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://ironkeyventuredao.github.io/iron-key-venture-docs/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://ironkeyventuredao.github.io/iron-key-venture-docs/blog/first-blog-post"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docusaurus_tag" content="default"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docsearch:docusaurus_tag" content="default"><meta data-rh="true" property="og:title" content="First Blog Post | Iron Key Ecosystem Resources"><meta data-rh="true" name="description" content="Lorem ipsum dolor sit amet..."><meta data-rh="true" property="og:description" content="Lorem ipsum dolor sit amet..."><meta data-rh="true" property="og:type" content="article"><meta data-rh="true" property="article:published_time" content="2019-05-28T00:00:00.000Z"><meta data-rh="true" property="article:author" content="https://sebastienlorber.com,https://linkedin.com/in/yangshun"><meta data-rh="true" property="article:tag" content="Hola,Docusaurus"><link data-rh="true" rel="icon" href="/iron-key-venture-docs/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://ironkeyventuredao.github.io/iron-key-venture-docs/blog/first-blog-post"><link data-rh="true" rel="alternate" href="https://ironkeyventuredao.github.io/iron-key-venture-docs/blog/first-blog-post" hreflang="en"><link data-rh="true" rel="alternate" href="https://ironkeyventuredao.github.io/iron-key-venture-docs/blog/first-blog-post" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","@id":"https://ironkeyventuredao.github.io/iron-key-venture-docs/blog/first-blog-post","mainEntityOfPage":"https://ironkeyventuredao.github.io/iron-key-venture-docs/blog/first-blog-post","url":"https://ironkeyventuredao.github.io/iron-key-venture-docs/blog/first-blog-post","headline":"First Blog Post","name":"First Blog Post","description":"Lorem ipsum dolor sit amet...","datePublished":"2019-05-28T00:00:00.000Z","author":[{"@type":"Person","name":"Sébastien Lorber","description":"Docusaurus maintainer","url":"https://sebastienlorber.com","image":"https://github.com/slorber.png"},{"@type":"Person","name":"Yangshun Tay","description":"Ex-Meta Staff Engineer, Co-founder GreatFrontEnd","url":"https://linkedin.com/in/yangshun","image":"https://github.com/yangshun.png"}],"keywords":[],"isPartOf":{"@type":"Blog","@id":"https://ironkeyventuredao.github.io/iron-key-venture-docs/blog","name":"Blog"}}</script><link rel="alternate" type="application/rss+xml" href="/iron-key-venture-docs/blog/rss.xml" title="Iron Key Ecosystem Resources RSS Feed">
-<link rel="alternate" type="application/atom+xml" href="/iron-key-venture-docs/blog/atom.xml" title="Iron Key Ecosystem Resources Atom Feed"><link rel="stylesheet" href="/iron-key-venture-docs/assets/css/styles.0f52e0db.css">
-<script src="/iron-key-venture-docs/assets/js/runtime~main.4f30d865.js" defer="defer"></script>
-<script src="/iron-key-venture-docs/assets/js/main.6aa9795c.js" defer="defer"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>Introduction to Investment Clubs | Iron Key Capital</title>
+    <meta name="title" content="Introduction to Investment Clubs | Iron Key Capital">
+    <meta name="description" content="Learn about investment clubs, VentureDAOs, and community-driven investing. Iron Key Capital brings together professionals, VCs, and angel investors to invest in Web3 and AI startups.">
+    <meta name="keywords" content="investment clubs, venture capital, web3, AI, blockchain, VentureDAO, seed stage investing, Iron Key Capital">
+    <meta name="author" content="Iron Key Capital">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ironkeyventuredao.github.io/iron-key-venture-docs/iron-key-club-poc/">
+    <meta property="og:title" content="Introduction to Investment Clubs | Iron Key Capital">
+    <meta property="og:description" content="Learn about investment clubs, VentureDAOs, and community-driven investing at the intersection of blockchain and AI.">
+    <meta property="og:image" content="https://ironkeyventuredao.github.io/iron-key-venture-docs/img/docusaurus-social-card.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://ironkeyventuredao.github.io/iron-key-venture-docs/iron-key-club-poc/">
+    <meta property="twitter:title" content="Introduction to Investment Clubs | Iron Key Capital">
+    <meta property="twitter:description" content="Learn about investment clubs, VentureDAOs, and community-driven investing at the intersection of blockchain and AI.">
+    <meta property="twitter:image" content="https://ironkeyventuredao.github.io/iron-key-venture-docs/img/docusaurus-social-card.jpg">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://ironkeyventuredao.github.io/iron-key-venture-docs/iron-key-club-poc/">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #1a1a1a;
+            --secondary: #2d2d2d;
+            --accent: #d4af37;
+            --accent-dark: #b8941f;
+            --text: #e8e8e8;
+            --text-muted: #a0a0a0;
+            --background: #0f0f0f;
+            --card-bg: #1a1a1a;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Work Sans', sans-serif;
+            background: var(--background);
+            color: var(--text);
+            line-height: 1.7;
+            overflow-x: hidden;
+        }
+
+        /* Animated background */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: 
+                radial-gradient(ellipse at 20% 30%, rgba(212, 175, 55, 0.08) 0%, transparent 50%),
+                radial-gradient(ellipse at 80% 70%, rgba(212, 175, 55, 0.06) 0%, transparent 50%);
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Header */
+        header {
+            padding: 3rem 0;
+            border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+            animation: fadeInDown 1s ease-out;
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            font-weight: 900;
+            color: var(--accent);
+            letter-spacing: -0.02em;
+            margin-bottom: 0.5rem;
+            display: inline-block;
+        }
+
+        .tagline {
+            font-size: 1.1rem;
+            color: var(--text-muted);
+            font-weight: 300;
+            letter-spacing: 0.05em;
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 6rem 0;
+            text-align: center;
+            animation: fadeIn 1.2s ease-out 0.2s backwards;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 4rem;
+            font-weight: 900;
+            line-height: 1.1;
+            margin-bottom: 1.5rem;
+            background: linear-gradient(135deg, var(--accent) 0%, #f4e4b8 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .lead {
+            font-size: 1.3rem;
+            color: var(--text-muted);
+            max-width: 800px;
+            margin: 0 auto 2rem;
+            line-height: 1.8;
+        }
+
+        /* Section Styles */
+        section {
+            padding: 5rem 0;
+            animation: fadeIn 1s ease-out;
+        }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.8rem;
+            font-weight: 700;
+            margin-bottom: 2rem;
+            color: var(--accent);
+            position: relative;
+            display: inline-block;
+        }
+
+        h2::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            width: 60px;
+            height: 3px;
+            background: var(--accent);
+        }
+
+        h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin: 2.5rem 0 1rem;
+            color: var(--text);
+        }
+
+        p {
+            margin-bottom: 1.2rem;
+            color: var(--text-muted);
+        }
+
+        /* Card Grid */
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+
+        .card {
+            background: var(--card-bg);
+            padding: 2.5rem;
+            border-radius: 12px;
+            border: 1px solid rgba(212, 175, 55, 0.15);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(212, 175, 55, 0.05) 0%, transparent 50%);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: var(--accent);
+            box-shadow: 0 10px 40px rgba(212, 175, 55, 0.2);
+        }
+
+        .card:hover::before {
+            opacity: 1;
+        }
+
+        .card h3 {
+            margin-top: 0;
+            font-size: 1.5rem;
+            color: var(--accent);
+        }
+
+        /* Two Column Layout */
+        .two-col {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            margin: 3rem 0;
+        }
+
+        /* Highlight Box */
+        .highlight-box {
+            background: linear-gradient(135deg, rgba(212, 175, 55, 0.1) 0%, rgba(212, 175, 55, 0.05) 100%);
+            border-left: 4px solid var(--accent);
+            padding: 2rem;
+            margin: 2rem 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .highlight-box p {
+            color: var(--text);
+            font-style: italic;
+            font-size: 1.1rem;
+            margin: 0;
+        }
+
+        .highlight-box .author {
+            margin-top: 1rem;
+            color: var(--accent);
+            font-style: normal;
+            font-weight: 600;
+        }
+
+        /* List Styles */
+        ul {
+            list-style: none;
+            margin: 1.5rem 0;
+        }
+
+        ul li {
+            padding: 0.8rem 0 0.8rem 2rem;
+            position: relative;
+            color: var(--text-muted);
+        }
+
+        ul li::before {
+            content: '→';
+            position: absolute;
+            left: 0;
+            color: var(--accent);
+            font-weight: bold;
+        }
+
+        /* Link Styles */
+        a {
+            color: var(--accent);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: var(--accent-dark);
+            text-decoration: underline;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            background: linear-gradient(135deg, rgba(212, 175, 55, 0.15) 0%, rgba(212, 175, 55, 0.05) 100%);
+            padding: 4rem;
+            border-radius: 16px;
+            text-align: center;
+            margin: 4rem 0;
+            border: 1px solid rgba(212, 175, 55, 0.3);
+        }
+
+        .cta-section h2 {
+            color: var(--text);
+            margin-bottom: 1.5rem;
+        }
+
+        .cta-section h2::after {
+            display: none;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 1rem 2.5rem;
+            background: var(--accent);
+            color: var(--primary);
+            font-weight: 600;
+            border-radius: 6px;
+            margin: 1rem 0.5rem;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            font-size: 0.9rem;
+        }
+
+        .btn:hover {
+            background: var(--accent-dark);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(212, 175, 55, 0.4);
+            text-decoration: none;
+        }
+
+        /* Personas Grid */
+        .personas-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .persona {
+            background: var(--card-bg);
+            padding: 1.5rem;
+            border-radius: 8px;
+            border: 1px solid rgba(212, 175, 55, 0.2);
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .persona:hover {
+            transform: scale(1.05);
+            border-color: var(--accent);
+        }
+
+        .persona h4 {
+            color: var(--accent);
+            margin-bottom: 0.5rem;
+            font-size: 1.2rem;
+        }
+
+        .persona p {
+            font-size: 0.9rem;
+            margin: 0;
+        }
+
+        /* FAQ Section */
+        .faq-item {
+            background: var(--card-bg);
+            padding: 2rem;
+            margin: 1.5rem 0;
+            border-radius: 8px;
+            border-left: 3px solid var(--accent);
+        }
+
+        .faq-item h4 {
+            color: var(--accent);
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+
+        /* Footer */
+        footer {
+            border-top: 1px solid rgba(212, 175, 55, 0.2);
+            padding: 3rem 0;
+            margin-top: 6rem;
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        .disclaimer {
+            background: rgba(212, 175, 55, 0.05);
+            padding: 2rem;
+            border-radius: 8px;
+            margin: 3rem 0;
+            font-size: 0.85rem;
+            line-height: 1.6;
+            border: 1px solid rgba(212, 175, 55, 0.1);
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            h2 {
+                font-size: 2rem;
+            }
+
+            .two-col {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .hero {
+                padding: 3rem 0;
+            }
+
+            .cta-section {
+                padding: 2rem;
+            }
+
+            .container {
+                padding: 0 1.5rem;
+            }
+        }
+
+        /* Scroll animations */
+        .animate-on-scroll {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s ease;
+        }
+
+        .animate-on-scroll.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
 </head>
-<body class="navigation-with-keyboard">
-<svg style="display: none;"><defs>
-<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
-</defs></svg>
-<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||"dark"),document.documentElement.setAttribute("data-theme-choice",t||"dark")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><link rel="preload" as="image" href="/iron-key-venture-docs/img/logo.svg"><link rel="preload" as="image" href="https://github.com/slorber.png"><link rel="preload" as="image" href="https://github.com/yangshun.png"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/iron-key-venture-docs/"><div class="navbar__logo"><img src="/iron-key-venture-docs/img/logo.svg" alt="My Site Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/iron-key-venture-docs/img/logo.svg" alt="My Site Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">Iron Key Ecosystem Resources</b></a><a class="navbar__item navbar__link" href="/iron-key-venture-docs/docs/intro">Ecosystem Docs</a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/iron-key-venture-docs/blog">Blog</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a href="https://github.com/facebook/docusaurus" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="container margin-vert--lg"><div class="row"><aside class="col col--3"><nav class="sidebar_re4s thin-scrollbar" aria-label="Blog recent posts navigation"><div class="sidebarItemTitle_pO2u margin-bottom--md">Recent posts</div><div role="group"><h3 class="yearGroupHeading_rMGB">2021</h3><ul class="sidebarItemList_Yudw clean-list"><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/iron-key-venture-docs/blog/welcome">Welcome</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/iron-key-venture-docs/blog/mdx-blog-post">MDX Blog Post</a></li></ul></div><div role="group"><h3 class="yearGroupHeading_rMGB">2019</h3><ul class="sidebarItemList_Yudw clean-list"><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/iron-key-venture-docs/blog/long-blog-post">Long Blog Post</a></li><li class="sidebarItem__DBe"><a aria-current="page" class="sidebarItemLink_mo7H sidebarItemLinkActive_I1ZP" href="/iron-key-venture-docs/blog/first-blog-post">First Blog Post</a></li></ul></div></nav></aside><main class="col col--7"><article class=""><header><h1 class="title_f1Hy">First Blog Post</h1><div class="container_mt6G margin-vert--md"><time datetime="2019-05-28T00:00:00.000Z">May 28, 2019</time> · <!-- -->One min read</div><div class="margin-top--md margin-bottom--sm row"><div class="col col--6 authorCol_Hf19"><div class="avatar margin-bottom--sm"><a class="avatar__photo-link" href="/iron-key-venture-docs/blog/authors/all-sebastien-lorber-articles"><img class="avatar__photo authorImage_XqGP" src="https://github.com/slorber.png" alt="Sébastien Lorber"></a><div class="avatar__intro authorDetails_lV9A"><div class="avatar__name"><a href="/iron-key-venture-docs/blog/authors/all-sebastien-lorber-articles"><span class="authorName_yefp" translate="no">Sébastien Lorber</span></a></div><small class="authorTitle_nd0D" title="Docusaurus maintainer">Docusaurus maintainer</small><div class="authorSocials_rSDt"><a href="https://x.com/sebastienlorber" target="_blank" rel="noopener noreferrer" class="authorSocialLink_owbf" title="X"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 1200 1227" style="--dark:#000;--light:#fff" class="authorSocialIcon_XYv3 xSvg_y3PF"><path d="M714.163 519.284 1160.89 0h-105.86L667.137 450.887 357.328 0H0l468.492 681.821L0 1226.37h105.866l409.625-476.152 327.181 476.152H1200L714.137 519.284h.026ZM569.165 687.828l-47.468-67.894-377.686-540.24h162.604l304.797 435.991 47.468 67.894 396.2 566.721H892.476L569.165 687.854v-.026Z"></path></svg></a><a href="https://www.linkedin.com/in/sebastienlorber/" target="_blank" rel="noopener noreferrer" class="authorSocialLink_owbf" title="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid" viewBox="0 0 256 256" style="--dark:#0a66c2;--light:#ffffffe6" class="authorSocialIcon_XYv3 linkedinSvg_FCgI"><path d="M218.123 218.127h-37.931v-59.403c0-14.165-.253-32.4-19.728-32.4-19.756 0-22.779 15.434-22.779 31.369v60.43h-37.93V95.967h36.413v16.694h.51a39.907 39.907 0 0 1 35.928-19.733c38.445 0 45.533 25.288 45.533 58.186l-.016 67.013ZM56.955 79.27c-12.157.002-22.014-9.852-22.016-22.009-.002-12.157 9.851-22.014 22.008-22.016 12.157-.003 22.014 9.851 22.016 22.008A22.013 22.013 0 0 1 56.955 79.27m18.966 138.858H37.95V95.967h37.97v122.16ZM237.033.018H18.89C8.58-.098.125 8.161-.001 18.471v219.053c.122 10.315 8.576 18.582 18.89 18.474h218.144c10.336.128 18.823-8.139 18.966-18.474V18.454c-.147-10.33-8.635-18.588-18.966-18.453"></path></svg></a><a href="https://github.com/slorber" target="_blank" rel="noopener noreferrer" class="authorSocialLink_owbf" title="GitHub"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 250" preserveAspectRatio="xMidYMid" style="--dark:#000;--light:#fff" class="authorSocialIcon_XYv3 githubSvg_Uu4N"><path d="M128.001 0C57.317 0 0 57.307 0 128.001c0 56.554 36.676 104.535 87.535 121.46 6.397 1.185 8.746-2.777 8.746-6.158 0-3.052-.12-13.135-.174-23.83-35.61 7.742-43.124-15.103-43.124-15.103-5.823-14.795-14.213-18.73-14.213-18.73-11.613-7.944.876-7.78.876-7.78 12.853.902 19.621 13.19 19.621 13.19 11.417 19.568 29.945 13.911 37.249 10.64 1.149-8.272 4.466-13.92 8.127-17.116-28.431-3.236-58.318-14.212-58.318-63.258 0-13.975 5-25.394 13.188-34.358-1.329-3.224-5.71-16.242 1.24-33.874 0 0 10.749-3.44 35.21 13.121 10.21-2.836 21.16-4.258 32.038-4.307 10.878.049 21.837 1.47 32.066 4.307 24.431-16.56 35.165-13.12 35.165-13.12 6.967 17.63 2.584 30.65 1.255 33.873 8.207 8.964 13.173 20.383 13.173 34.358 0 49.163-29.944 59.988-58.447 63.157 4.591 3.972 8.682 11.762 8.682 23.704 0 17.126-.148 30.91-.148 35.126 0 3.407 2.304 7.398 8.792 6.14C219.37 232.5 256 184.537 256 128.002 256 57.307 198.691 0 128.001 0Zm-80.06 182.34c-.282.636-1.283.827-2.194.39-.929-.417-1.45-1.284-1.15-1.922.276-.655 1.279-.838 2.205-.399.93.418 1.46 1.293 1.139 1.931Zm6.296 5.618c-.61.566-1.804.303-2.614-.591-.837-.892-.994-2.086-.375-2.66.63-.566 1.787-.301 2.626.591.838.903 1 2.088.363 2.66Zm4.32 7.188c-.785.545-2.067.034-2.86-1.104-.784-1.138-.784-2.503.017-3.05.795-.547 2.058-.055 2.861 1.075.782 1.157.782 2.522-.019 3.08Zm7.304 8.325c-.701.774-2.196.566-3.29-.49-1.119-1.032-1.43-2.496-.726-3.27.71-.776 2.213-.558 3.315.49 1.11 1.03 1.45 2.505.701 3.27Zm9.442 2.81c-.31 1.003-1.75 1.459-3.199 1.033-1.448-.439-2.395-1.613-2.103-2.626.301-1.01 1.747-1.484 3.207-1.028 1.446.436 2.396 1.602 2.095 2.622Zm10.744 1.193c.036 1.055-1.193 1.93-2.715 1.95-1.53.034-2.769-.82-2.786-1.86 0-1.065 1.202-1.932 2.733-1.958 1.522-.03 2.768.818 2.768 1.868Zm10.555-.405c.182 1.03-.875 2.088-2.387 2.37-1.485.271-2.861-.365-3.05-1.386-.184-1.056.893-2.114 2.376-2.387 1.514-.263 2.868.356 3.061 1.403Z"></path></svg></a><a href="https://thisweekinreact.com" target="_blank" rel="noopener noreferrer" class="authorSocialLink_owbf" title="newsletter"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="authorSocialIcon_XYv3"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M1.2 12a10.8 10.8 0 1 0 21.6 0a10.8 10.8 0 0 0 -21.6 0"></path><path d="M1.92 8.4h20.16"></path><path d="M1.92 15.6h20.16"></path><path d="M11.4 1.2a20.4 20.4 0 0 0 0 21.6"></path><path d="M12.6 1.2a20.4 20.4 0 0 1 0 21.6"></path></svg></a></div></div></div></div><div class="col col--6 authorCol_Hf19"><div class="avatar margin-bottom--sm"><a class="avatar__photo-link" href="/iron-key-venture-docs/blog/authors/yangshun"><img class="avatar__photo authorImage_XqGP" src="https://github.com/yangshun.png" alt="Yangshun Tay"></a><div class="avatar__intro authorDetails_lV9A"><div class="avatar__name"><a href="/iron-key-venture-docs/blog/authors/yangshun"><span class="authorName_yefp" translate="no">Yangshun Tay</span></a></div><small class="authorTitle_nd0D" title="Ex-Meta Staff Engineer, Co-founder GreatFrontEnd">Ex-Meta Staff Engineer, Co-founder GreatFrontEnd</small><div class="authorSocials_rSDt"><a href="https://x.com/yangshunz" target="_blank" rel="noopener noreferrer" class="authorSocialLink_owbf" title="X"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 1200 1227" style="--dark:#000;--light:#fff" class="authorSocialIcon_XYv3 xSvg_y3PF"><path d="M714.163 519.284 1160.89 0h-105.86L667.137 450.887 357.328 0H0l468.492 681.821L0 1226.37h105.866l409.625-476.152 327.181 476.152H1200L714.137 519.284h.026ZM569.165 687.828l-47.468-67.894-377.686-540.24h162.604l304.797 435.991 47.468 67.894 396.2 566.721H892.476L569.165 687.854v-.026Z"></path></svg></a><a href="https://www.linkedin.com/in/yangshun/" target="_blank" rel="noopener noreferrer" class="authorSocialLink_owbf" title="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid" viewBox="0 0 256 256" style="--dark:#0a66c2;--light:#ffffffe6" class="authorSocialIcon_XYv3 linkedinSvg_FCgI"><path d="M218.123 218.127h-37.931v-59.403c0-14.165-.253-32.4-19.728-32.4-19.756 0-22.779 15.434-22.779 31.369v60.43h-37.93V95.967h36.413v16.694h.51a39.907 39.907 0 0 1 35.928-19.733c38.445 0 45.533 25.288 45.533 58.186l-.016 67.013ZM56.955 79.27c-12.157.002-22.014-9.852-22.016-22.009-.002-12.157 9.851-22.014 22.008-22.016 12.157-.003 22.014 9.851 22.016 22.008A22.013 22.013 0 0 1 56.955 79.27m18.966 138.858H37.95V95.967h37.97v122.16ZM237.033.018H18.89C8.58-.098.125 8.161-.001 18.471v219.053c.122 10.315 8.576 18.582 18.89 18.474h218.144c10.336.128 18.823-8.139 18.966-18.474V18.454c-.147-10.33-8.635-18.588-18.966-18.453"></path></svg></a><a href="https://github.com/yangshun" target="_blank" rel="noopener noreferrer" class="authorSocialLink_owbf" title="GitHub"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 250" preserveAspectRatio="xMidYMid" style="--dark:#000;--light:#fff" class="authorSocialIcon_XYv3 githubSvg_Uu4N"><path d="M128.001 0C57.317 0 0 57.307 0 128.001c0 56.554 36.676 104.535 87.535 121.46 6.397 1.185 8.746-2.777 8.746-6.158 0-3.052-.12-13.135-.174-23.83-35.61 7.742-43.124-15.103-43.124-15.103-5.823-14.795-14.213-18.73-14.213-18.73-11.613-7.944.876-7.78.876-7.78 12.853.902 19.621 13.19 19.621 13.19 11.417 19.568 29.945 13.911 37.249 10.64 1.149-8.272 4.466-13.92 8.127-17.116-28.431-3.236-58.318-14.212-58.318-63.258 0-13.975 5-25.394 13.188-34.358-1.329-3.224-5.71-16.242 1.24-33.874 0 0 10.749-3.44 35.21 13.121 10.21-2.836 21.16-4.258 32.038-4.307 10.878.049 21.837 1.47 32.066 4.307 24.431-16.56 35.165-13.12 35.165-13.12 6.967 17.63 2.584 30.65 1.255 33.873 8.207 8.964 13.173 20.383 13.173 34.358 0 49.163-29.944 59.988-58.447 63.157 4.591 3.972 8.682 11.762 8.682 23.704 0 17.126-.148 30.91-.148 35.126 0 3.407 2.304 7.398 8.792 6.14C219.37 232.5 256 184.537 256 128.002 256 57.307 198.691 0 128.001 0Zm-80.06 182.34c-.282.636-1.283.827-2.194.39-.929-.417-1.45-1.284-1.15-1.922.276-.655 1.279-.838 2.205-.399.93.418 1.46 1.293 1.139 1.931Zm6.296 5.618c-.61.566-1.804.303-2.614-.591-.837-.892-.994-2.086-.375-2.66.63-.566 1.787-.301 2.626.591.838.903 1 2.088.363 2.66Zm4.32 7.188c-.785.545-2.067.034-2.86-1.104-.784-1.138-.784-2.503.017-3.05.795-.547 2.058-.055 2.861 1.075.782 1.157.782 2.522-.019 3.08Zm7.304 8.325c-.701.774-2.196.566-3.29-.49-1.119-1.032-1.43-2.496-.726-3.27.71-.776 2.213-.558 3.315.49 1.11 1.03 1.45 2.505.701 3.27Zm9.442 2.81c-.31 1.003-1.75 1.459-3.199 1.033-1.448-.439-2.395-1.613-2.103-2.626.301-1.01 1.747-1.484 3.207-1.028 1.446.436 2.396 1.602 2.095 2.622Zm10.744 1.193c.036 1.055-1.193 1.93-2.715 1.95-1.53.034-2.769-.82-2.786-1.86 0-1.065 1.202-1.932 2.733-1.958 1.522-.03 2.768.818 2.768 1.868Zm10.555-.405c.182 1.03-.875 2.088-2.387 2.37-1.485.271-2.861-.365-3.05-1.386-.184-1.056.893-2.114 2.376-2.387 1.514-.263 2.868.356 3.061 1.403Z"></path></svg></a><a href="https://www.greatfrontend.com" target="_blank" rel="noopener noreferrer" class="authorSocialLink_owbf" title="newsletter"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="authorSocialIcon_XYv3"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M1.2 12a10.8 10.8 0 1 0 21.6 0a10.8 10.8 0 0 0 -21.6 0"></path><path d="M1.92 8.4h20.16"></path><path d="M1.92 15.6h20.16"></path><path d="M11.4 1.2a20.4 20.4 0 0 0 0 21.6"></path><path d="M12.6 1.2a20.4 20.4 0 0 1 0 21.6"></path></svg></a></div></div></div></div></div></header><div id="__blog-post-container" class="markdown"><p>Lorem ipsum dolor sit amet...</p>
-<p>...consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p></div><footer class="docusaurus-mt-lg"><div class="row margin-top--sm theme-blog-footer-edit-meta-row"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a rel="tag" title="Hola tag description" class="tag_zVej tagRegular_sFm0" href="/iron-key-venture-docs/blog/tags/hola">Hola</a></li><li class="tag_QGVx"><a rel="tag" title="Docusaurus tag description" class="tag_zVej tagRegular_sFm0" href="/iron-key-venture-docs/blog/tags/docusaurus">Docusaurus</a></li></ul></div></div><div class="row margin-top--sm theme-blog-footer-edit-meta-row"><div class="col noPrint_WFHX"><a href="https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2019-05-28-first-blog-post.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Blog post page navigation"><a class="pagination-nav__link pagination-nav__link--prev" href="/iron-key-venture-docs/blog/long-blog-post"><div class="pagination-nav__sublabel">Newer post</div><div class="pagination-nav__label">Long Blog Post</div></a></nav></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Ecosystem Docs</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/iron-key-venture-docs/docs/intro">Iron Key Capital Ecosystem</a></li><li class="footer__item"><a class="footer__link-item" href="/iron-key-venture-docs/docs/introduction">Introduction</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://discord.gg/ironkey" target="_blank" rel="noopener noreferrer" class="footer__link-item">Discord<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://x.com/ironkeycapital" target="_blank" rel="noopener noreferrer" class="footer__link-item">X (Twitter)<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">More</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/iron-key-venture-docs/blog">Blog</a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 Iron Key Capital. Built with Docusaurus.</div></div></div></footer></div>
+<body>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Introduction to Investment Clubs</h1>
+            </div>
+        </section>
+
+        <section id="introduction">
+            <div class="container animate-on-scroll">
+                <p>Investment Clubs are groups of people who come together to pool capital, share ideas, and invest collaboratively across various asset classes. Investment clubs provide a simple, cost effective vehicle for investor communities and new fund managers to build and activate networks. Unknown to many average investors, Investment Clubs have existed for centuries(<a href="https://en.wikipedia.org/wiki/Investment_club" target="_blank">https://en.wikipedia.org/wiki/Investment_club</a>). The most popular investment club that most people will recognize is Jim Cramer on CNBC, which is non-capital pooling club. However, investment clubs have largely been untapped as a reliable capital formation tool in the 21st Century, due to the following two reasons.</p>
+                
+                <ul>
+                    <li>Lack of proper incentives; cannot charge any fees in the US except for adminstrative expenses</li>
+                    <li>No standard operational approach or back office provider</li>
+                </ul>
+
+                <p>In summary, there are two types of investment clubs that the SEC recognizes, and the difference lies in how the capital is deployed.</p>
+                
+                <div class="two-col">
+                    <div class="card">
+                        <h3>Capital Pooling Clubs</h3>
+                        <p>Investors pool their capital together into a central location which enables collective decision making opportunities</p>
+                        <p>This allows investors to deploy "wisdom of the crowd3" strategies, rather than relying on 1-2 General Partners or Managers to make decisions on behalf of the investors.</p>
+                        <p>Investors maintain partial decision control over their capital on a capital-weighted basis.</p>
+                        <p>Obvious Web3 Use Case - it's possible to tokenize the profit interests of the investment club entity to create liquidity</p>
+                    </div>
+                    
+                    <div class="card">
+                        <h3>Non-Capital Pooling Clubs</h3>
+                        <p>The club is typically managed by a gatekeeper (typically with an annual subscription or one-time membership fee). Investors in these types of clubs directly make their own capital decisions, and typically join the club for access to higher quality investment opportunities.</p>
+                        <p>Investors maintain full decision control over their capital.</p>
+                        <p>Obvious Web3 Use Case - NFTs generally make sense to gate access to the community.</p>
+                    </div>
+                </div>
+
+                <p>Most investment clubs are member-driven, invite-only, and operated democratically. In the U.S., they're generally unregulated by the SEC if they stay under 100 members, don't charge carried interest, and require all members to participate in decision-making.</p>
+
+                <p>Investment clubs are hard to set up, legally ambiguous, and built with either legacy systems or untested open source code.</p>
+                
+                <ul>
+                    <li>Access is gated: Venture opportunities are often reserved for insiders. Emerging investors and operators are locked out.</li>
+                    <li>Structures are outdated: Most emerging managers use traditional SPVs which are slow, costly, and not designed for technology-native communities.</li>
+                    <li>Liquidity is non-existent: Early-stage VC locks capital for years with little to no flexibility or secondary market.</li>
+                    <li>Coordination is messy: Founders, investors, and operators lack efficient tools to collaborate, track investments, and scale networks.</li>
+                    <li>Transparency is missing: Critical investment data is siloed or opaque, leaving members with little visibility into how decisions are made.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="history" style="background: rgba(212, 175, 55, 0.03);">
+            <div class="container animate-on-scroll">
+                <h2>History of Web3 Community Driven Investing</h2>
+                <p>Since the early days of digital assets, investors have leaned on one-another to further their own understanding of this nascent, fast-evolving asset class. Furthermore, with the integration of AI, the rate of technology innovation has increased by orders of magnitude; making community driven investing and innovation even more attractive and potentially lucrative, to those with an entrepreneurial bug.</p>
+
+                <p>Over the years, there have been many attempts at creating community driven investing organizations, with very few success stories. As a first mover in 2017-2018, MetaCartel4 set the gold standard for what a decentralized venture organization could look like, and also gave birth to the first(and only?) Fund of Funds focused on investment DAOs, Hydra Ventures5. I'd also be remiss not to mention the 2,800 lb gorillas in the room, OrangeDAO6, which raised $80M7 in 2022, and GCR8.</p>
+
+                <p>Besides a small handful of standouts previously mentioned, the Venture DAO space has largely suffered due the following reasons:</p>
+                <ul>
+                    <li>Weakening of the overall DAO narrative in the crypto space: Community driven businesses were forced to shift to sustainable, cash flowing business models.</li>
+                    <li>Lack of reliable software infrastructure: With Syndicate.io exiting the space in 2023.</li>
+                    <li>Lack of clarity around federal crypto regulations in the US: Pushing DAO frameworks off-shore.</li>
+                    <li>Voter Apathy: I'd argue it isn't simple, nor easy, for no-coiners to stay engaged due to market-wide UX barriers related to voting.</li>
+                    <li>Coordination Issues: It is difficult to coordinate and incentivize work in a decentralized manner, especially when the entire team is part-time. Example: LimeDAO9, started by Techstars alumni, failed due to lack of a central backer to help bootstrap the network. There was no formal involvement from Techstars itself.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="future">
+            <div class="container animate-on-scroll">
+                <h2>Future of Community Driven Investing</h2>
+                <p>However, in 2025, Iron Key believes there are various tailwinds that will support the investment club narrative, including:</p>
+
+                <ul>
+                    <li>US crypto regulation outlook appears extremely favorable and innovation-friendly</li>
+                    <li>AGI (Artificial General Intelligence)10 is already here to help solve voter apathy and coordination issues by creating frictionless and engaging participation avenues that integrate with crypto rails.</li>
+                    <li>As web3 and AI technologies begin to work together, investing communities and founders can begin to realize emergent value that is greater than the sum of the individual parts. Furthermore, investment clubs can be fully or partially managed by AGI itself; a notable example is ai16z11.</li>
+                    <li>Real World Assets (RWA) - As more exotic traditional assets start to move on chain, this will create a new market for investment clubs to thrive in other asset classes beyond startup investing.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="iron-key" style="background: rgba(212, 175, 55, 0.03);">
+            <div class="container animate-on-scroll">
+                <h2>Introducing Iron Key Capital's Investment Club</h2>
+                <p>Iron Key Capital Ventures Series 1 LLC (i.e Investment Club) brings together professionals, emerging founders, VCs, and angel investors to invest in the next wave of emerging technology that sits at the intersection of blockchain and AGI*.</p>
+
+                <p>Our club structure brings a new sustainable model to community driven early stage investing, while providing the necessary services required to scale seed stage startups.</p>
+
+                <p>Iron Key's Investment Club, also known as a VentureDAO, fosters a transparent, community-driven model that prioritizes liquidity, innovation, and diversification. The community votes monthly to invest in one high-potential seed stage startup, splitting the upside between Iron Key and its members, and rewarding contributions through a decentralized investment committee.</p>
+
+                <p>Our Investment Committee (IC) consists of investors expanding deal flow opportunities, professionals building venture track records, and founders seeking strategic feedback. Iron Key's club governance includes quarterly-voted roles like Venture Partners and Core Contributors. Its Angel-in-Residence (AIR) Program hones angel investing skills, while the club, inspired by the Service DAO* concept, enables AIR graduates to build a track record in a cost-effective manner.</p>
+
+                <ul>
+                    <li>Service DAO Principles: Modularized roles, transparent governance, and cash flowing verticals are integrated into the community to provide unmatched support for founders.</li>
+                    <li>Community-first: A decentralized LLC where every member can build an investment track record, find a co-founder, and help shape the Web3 / AI startup ecosystem.</li>
+                    <li>Web3-Native: On-chain infrastructure for transparency, speed, lower operational cost, and global accessibility.</li>
+                    <li>Compliance-Ready: Structured from the ground up to meet U.S. legal and tax requirements.</li>
+                    <li>Building Towards Liquid Venture: Creating tools to allow investors diversified venture exposure with liquidity optionality.</li>
+                </ul>
+
+                <p>Our Goal: Empower our community to use its collective intelligence to build a diversified portfolio of high quality seed stage startups building at the intersection of the real world economy and emerging technologies. We seek to provide investors with diversified exposure to early-stage venture capital, mainly because Seed Stage startups are the best way to preserve long duration capital during periods of market uncertainty.</p>
+
+                <div class="highlight-box">
+                    <p>"The smartest capital in the next decade won't just be fast; it will be collective. Iron Key Investment Club exists to give investors an edge, not by chasing trends but by compounding intelligence. We're not building a club. We are building the infrastructure for a new >class of investor. One that earns not just returns, but reputation, network, and leverage.</p>
+                    <p>"We're rewriting how capital is coordinated in the age of AGI and blockchain. Every member becomes a stakeholder, a contributor, and a decision-maker. Because the future of venture isn't gated - it's governed by those who build it."</p>
+                    <p class="author">Joseph Argiro - Founder and CEO, Iron Key Capital</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="why-join">
+            <div class="container animate-on-scroll">
+                <h2>Why Join Iron Key Capital?</h2>
+                <p>Iron Key is preparing to launch its native token, backed by the profit interests of its Investment Club, Iron Key Capital Ventures Series 1 LLC, a member-managed Wyoming LLC.</p>
+            </div>
+        </section>
+
+        <section id="thesis" style="background: rgba(212, 175, 55, 0.03);">
+            <div class="container animate-on-scroll">
+                <h2>Our Investment Thesis</h2>
+                
+                <ul>
+                    <li>Focus: Seed Stage Web3 (blockchain) and AI; solutions that impact real world economic activity</li>
+                    <li>Check Size: $25K to $200K</li>
+                    <li>Ownership Target: 3 to 5%</li>
+                    <li>Contract Type: Equity + Tokens</li>
+                    <li>Regions: U.S. preferred, Latin America, EMEA, Asia</li>
+                    <li>Sectors: Anything driving consumer and enterprise adoption of blockchain; examples include Protocols, APIs, Generative AI, Big Data, IoT (with blockchain components)</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="community">
+            <div class="container animate-on-scroll">
+                <h2>The Community</h2>
+                <p>Iron Key's community brings together five core personas:</p>
+                
+                <ul>
+                    <li>Emerging Managers: Build your own investment club alongside Iron Key Capital.</li>
+                    <li>Investors: Expand deal flow and build your personal angel portfolio.</li>
+                    <li>Professionals: Write your first angel check, sharpen diligence skills, and build a venture track record.</li>
+                    <li>Advisors & Mentors: Help the next generation of founders and investors succeed.</li>
+                    <li>Founders: Get real-time feedback and advisory on your pitch, GTM strategy, and fundraising.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="conclusion" style="background: rgba(212, 175, 55, 0.03);">
+            <div class="container animate-on-scroll">
+                <h2>Conclusion</h2>
+                <p>Underwhelmed by web3 innovation to date in compliant capital formation, Iron Key has decided to throw its hat in the ring by creating Fish Network; software to bring emerging managers on-chain through community enablement. Leveraging its investment club structure, Fish Network is uniquely positioned to unlock active investor capital at the margin by creating an ecosystem to serve the operational and capital needs of Seed stage startups. This flywheel becomes sustainable by offering investors a more capital efficient and differentiated diversification approach, all while developing a breeding ground for emerging managers to drive thesis-driven innovation.</p>
+
+                <div class="highlight-box">
+                    <p>"Though tempting, trying to time the market is a loser's game. $10,000 continuously invested in the market over the past 20 years grew to $63,636. If you missed just the best 30 days, your investment was reduced to $11,484.1"</p>
+                    <p class="author">Christopher Dixon, General Partner at a16z</p>
+                </div>
+
+                <p>Dollar Cost Averaging(DCA) has previously only been applied in practice to public markets investing. As Fish Network, we extend this concept to private markets, enabling retail investors seamless access to sophisticated portfolio construction tools and techniques.</p>
+
+                <p>If you'd like to learn more about joining Iron Key's investment club, please contact us here. The minimum check size is $10k USD.</p>
+
+                <p>If you'd like to learn more about building your own investment club, please contact us here.</p>
+            </div>
+        </section>
+
+        <section id="faq">
+            <div class="container animate-on-scroll">
+                <h2>Glossary and FAQ</h2>
+                
+                <div class="faq-item">
+                    <h4>1. Why do people join investment clubs?</h4>
+                    <p>Some common reasons include increased buying power (similar to a syndicate), reduced transaction costs, shared risk, and networking or learning opportunities around wealth creation.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>2. Why should i join the iron key investment club?</h4>
+                    <p>The main selling points for Iron Key's club for investors is Diversification Lower cost than an SPV For founders and professionals, reasons to join include Building your investor network and track record Learn how to bootstrap your own investor community to eventually launch your own fund Get a job or advisory gig at a startup or VC in our network</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>3. What is Carried Interest?</h4>
+                    <p>Carried Interest is a traditional mechanism for fund managers to make profits if investments perform well. Carried interest is a share of a fund's profits, typically 20 percent, earned by venture capital fund managers after returning capital and a minimum return (hurdle rate) to investors. It aligns the fund manager's incentives with the fund's performance and is usually taxed at the lower capital gains rate.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>4. Do you charge carried interest?</h4>
+                    <p>No, we do not charge traditional carried interest in our investment club. Instead, we reward active contributors through a points-based system and tokenized equity that reflects their participation, deal sourcing, and support. This structure allows members to earn ownership and upside based on contribution, not management fees - creating a more community-aligned and transparent model for early-stage investing.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>5. What is AGI?</h4>
+                    <p>AGI (Artificial General Intelligence) refers to a theoretical form of AI that can understand, learn, and apply knowledge across a wide range of tasks, just like a human. Unlike narrow AI, which is trained for specific functions, AGI would be able to self-teach, adapt to new problems, and operate in any domain without needing additional training. While today's AI systems are examples of "narrow" or "weak" AI, highly effective but limited to specific tasks - AGI represents "strong" AI, capable of general reasoning, problem-solving, and comprehension across disciplines.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>6. What is a Service DAO?</h4>
+                    <p>A Service DAO is a decentralized, community-driven organization that provides specialized services such as development, legal, marketing, or operations to other DAOs and Web3 projects. Unlike traditional agencies, Service DAOs coordinate work and reward contributors using token incentives and on-chain governance. This model creates stronger alignment between contributors and clients by promoting transparency, ownership, and shared incentives. As outlined in Hydra's whitepaper and the Thing3 initiative, Service DAOs are becoming a core part of the Web3 ecosystem by supporting the growth of Venture DAOs and decentralized investment communities.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="disclaimer">
+                <h3 style="color: var(--accent); margin-bottom: 1rem;">Disclaimer</h3>
+                <p>This thesis is intended solely for informational and educational purposes and does not constitute an offer, solicitation, or recommendation to buy or sell any securities, financial products, or instruments, nor should it be construed as investment advice, legal advice, tax advice, or a guarantee of future performance. The information contained in this document is based on sources believed to be reliable and accurate at the time of writing. However, no representation or warranty, express or implied, is made as to the accuracy, completeness, or reliability of the information, and the author(s) and publisher disclaim all liability for any direct or indirect loss or damage arising from reliance on such information. Investing involves risks, including the potential loss of principal. Past performance is not indicative of future results. Readers are strongly encouraged to consult with a qualified financial advisor or other professional before making any investment decisions. Any opinions, projections, or forward-looking statements expressed in this thesis reflect the views of the author(s) as of the date of publication and are subject to change without notice.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Scroll animation observer
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.animate-on-scroll').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Add parallax effect to background
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const parallax = document.querySelector('body::before');
+            if (parallax) {
+                document.body.style.setProperty('--scroll', scrolled * 0.5 + 'px');
+            }
+        });
+    </script>
 </body>
 </html>
