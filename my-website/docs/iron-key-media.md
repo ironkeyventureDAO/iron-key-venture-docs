@@ -12,7 +12,7 @@ Our mission to build a community angel and venture enthusiasts through the power
 
 ---
 
-[**Iron Key Media Strategy and Outline →**](./iron-key-media-strategy)
+[**Iron Key Media Strategy and Outline →**]
 
 ---
 
@@ -225,7 +225,7 @@ Duration:
 
 **Booking & Coordination**
 
-To schedule your interview, please visit our [Event Booking Calendar](./event-booking). We recommend booking at least two weeks in advance to ensure optimal preparation and promotion. We will contact you with next steps through your preferred medium - Telegram, email, or Discord.
+To schedule your interview, please visit our [Event Booking Calendar]. We recommend booking at least two weeks in advance to ensure optimal preparation and promotion. We will contact you with next steps through your preferred medium - Telegram, email, or Discord.
 
 We look forward to creating an exceptional experience for you and your audience.
 
@@ -261,5 +261,4 @@ Use the following email templates to effectively communicate with potential gues
 
 [**Guests →**]
 
-💡 **Notion Tip**: The Analytics database is view-only. This means that you cannot edit the numbers directly in this database. To update your stats, please use the three databases listed below.
 :::
