@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iron Key Capital - Investment Clubs Reimagined</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #1a1a1a;
+            --secondary: #2d2d2d;
+            --accent: #d4af37;
+            --accent-dark: #b8941f;
+            --text: #e8e8e8;
+            --text-muted: #a0a0a0;
+            --background: #0f0f0f;
+            --card-bg: #1a1a1a;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Work Sans', sans-serif;
+            background: var(--background);
+            color: var(--text);
+            line-height: 1.7;
+            overflow-x: hidden;
+        }
+
+        /* Animated background */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: 
+                radial-gradient(ellipse at 20% 30%, rgba(212, 175, 55, 0.08) 0%, transparent 50%),
+                radial-gradient(ellipse at 80% 70%, rgba(212, 175, 55, 0.06) 0%, transparent 50%);
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Header */
+        header {
+            padding: 3rem 0;
+            border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+            animation: fadeInDown 1s ease-out;
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            font-weight: 900;
+            color: var(--accent);
+            letter-spacing: -0.02em;
+            margin-bottom: 0.5rem;
+            display: inline-block;
+        }
+
+        .tagline {
+            font-size: 1.1rem;
+            color: var(--text-muted);
+            font-weight: 300;
+            letter-spacing: 0.05em;
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 6rem 0;
+            text-align: center;
+            animation: fadeIn 1.2s ease-out 0.2s backwards;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 4rem;
+            font-weight: 900;
+            line-height: 1.1;
+            margin-bottom: 1.5rem;
+            background: linear-gradient(135deg, var(--accent) 0%, #f4e4b8 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .lead {
+            font-size: 1.3rem;
+            color: var(--text-muted);
+            max-width: 800px;
+            margin: 0 auto 2rem;
+            line-height: 1.8;
+        }
+
+        /* Section Styles */
+        section {
+            padding: 5rem 0;
+            animation: fadeIn 1s ease-out;
+        }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.8rem;
+            font-weight: 700;
+            margin-bottom: 2rem;
+            color: var(--accent);
+            position: relative;
+            display: inline-block;
+        }
+
+        h2::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            width: 60px;
+            height: 3px;
+            background: var(--accent);
+        }
+
+        h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin: 2.5rem 0 1rem;
+            color: var(--text);
+        }
+
+        p {
+            margin-bottom: 1.2rem;
+            color: var(--text-muted);
+        }
+
+        /* Card Grid */
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+
+        .card {
+            background: var(--card-bg);
+            padding: 2.5rem;
+            border-radius: 12px;
+            border: 1px solid rgba(212, 175, 55, 0.15);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(212, 175, 55, 0.05) 0%, transparent 50%);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: var(--accent);
+            box-shadow: 0 10px 40px rgba(212, 175, 55, 0.2);
+        }
+
+        .card:hover::before {
+            opacity: 1;
+        }
+
+        .card h3 {
+            margin-top: 0;
+            font-size: 1.5rem;
+            color: var(--accent);
+        }
+
+        /* Two Column Layout */
+        .two-col {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            margin: 3rem 0;
+        }
+
+        /* Highlight Box */
+        .highlight-box {
+            background: linear-gradient(135deg, rgba(212, 175, 55, 0.1) 0%, rgba(212, 175, 55, 0.05) 100%);
+            border-left: 4px solid var(--accent);
+            padding: 2rem;
+            margin: 2rem 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .highlight-box p {
+            color: var(--text);
+            font-style: italic;
+            font-size: 1.1rem;
+            margin: 0;
+        }
+
+        .highlight-box .author {
+            margin-top: 1rem;
+            color: var(--accent);
+            font-style: normal;
+            font-weight: 600;
+        }
+
+        /* List Styles */
+        ul {
+            list-style: none;
+            margin: 1.5rem 0;
+        }
+
+        ul li {
+            padding: 0.8rem 0 0.8rem 2rem;
+            position: relative;
+            color: var(--text-muted);
+        }
+
+        ul li::before {
+            content: '→';
+            position: absolute;
+            left: 0;
+            color: var(--accent);
+            font-weight: bold;
+        }
+
+        /* Link Styles */
+        a {
+            color: var(--accent);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: var(--accent-dark);
+            text-decoration: underline;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            background: linear-gradient(135deg, rgba(212, 175, 55, 0.15) 0%, rgba(212, 175, 55, 0.05) 100%);
+            padding: 4rem;
+            border-radius: 16px;
+            text-align: center;
+            margin: 4rem 0;
+            border: 1px solid rgba(212, 175, 55, 0.3);
+        }
+
+        .cta-section h2 {
+            color: var(--text);
+            margin-bottom: 1.5rem;
+        }
+
+        .cta-section h2::after {
+            display: none;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 1rem 2.5rem;
+            background: var(--accent);
+            color: var(--primary);
+            font-weight: 600;
+            border-radius: 6px;
+            margin: 1rem 0.5rem;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            font-size: 0.9rem;
+        }
+
+        .btn:hover {
+            background: var(--accent-dark);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(212, 175, 55, 0.4);
+            text-decoration: none;
+        }
+
+        /* Personas Grid */
+        .personas-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .persona {
+            background: var(--card-bg);
+            padding: 1.5rem;
+            border-radius: 8px;
+            border: 1px solid rgba(212, 175, 55, 0.2);
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .persona:hover {
+            transform: scale(1.05);
+            border-color: var(--accent);
+        }
+
+        .persona h4 {
+            color: var(--accent);
+            margin-bottom: 0.5rem;
+            font-size: 1.2rem;
+        }
+
+        .persona p {
+            font-size: 0.9rem;
+            margin: 0;
+        }
+
+        /* FAQ Section */
+        .faq-item {
+            background: var(--card-bg);
+            padding: 2rem;
+            margin: 1.5rem 0;
+            border-radius: 8px;
+            border-left: 3px solid var(--accent);
+        }
+
+        .faq-item h4 {
+            color: var(--accent);
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+
+        /* Footer */
+        footer {
+            border-top: 1px solid rgba(212, 175, 55, 0.2);
+            padding: 3rem 0;
+            margin-top: 6rem;
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        .disclaimer {
+            background: rgba(212, 175, 55, 0.05);
+            padding: 2rem;
+            border-radius: 8px;
+            margin: 3rem 0;
+            font-size: 0.85rem;
+            line-height: 1.6;
+            border: 1px solid rgba(212, 175, 55, 0.1);
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            h2 {
+                font-size: 2rem;
+            }
+
+            .two-col {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .hero {
+                padding: 3rem 0;
+            }
+
+            .cta-section {
+                padding: 2rem;
+            }
+
+            .container {
+                padding: 0 1.5rem;
+            }
+        }
+
+        /* Scroll animations */
+        .animate-on-scroll {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s ease;
+        }
+
+        .animate-on-scroll.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Introduction to Investment Clubs</h1>
+            </div>
+        </section>
+
+        <section id="introduction">
+            <div class="container animate-on-scroll">
+                <p>Investment Clubs are groups of people who come together to pool capital, share ideas, and invest collaboratively across various asset classes. Investment clubs provide a simple, cost effective vehicle for investor communities and new fund managers to build and activate networks. Unknown to many average investors, Investment Clubs have existed for centuries(<a href="https://en.wikipedia.org/wiki/Investment_club" target="_blank">https://en.wikipedia.org/wiki/Investment_club</a>). The most popular investment club that most people will recognize is Jim Cramer on CNBC, which is non-capital pooling club. However, investment clubs have largely been untapped as a reliable capital formation tool in the 21st Century, due to the following two reasons.</p>
+                
+                <ul>
+                    <li>Lack of proper incentives; cannot charge any fees in the US except for adminstrative expenses</li>
+                    <li>No standard operational approach or back office provider</li>
+                </ul>
+
+                <p>In summary, there are two types of investment clubs that the SEC recognizes, and the difference lies in how the capital is deployed.</p>
+                
+                <div class="two-col">
+                    <div class="card">
+                        <h3>Capital Pooling Clubs</h3>
+                        <p>Investors pool their capital together into a central location which enables collective decision making opportunities</p>
+                        <p>This allows investors to deploy "wisdom of the crowd3" strategies, rather than relying on 1-2 General Partners or Managers to make decisions on behalf of the investors.</p>
+                        <p>Investors maintain partial decision control over their capital on a capital-weighted basis.</p>
+                        <p>Obvious Web3 Use Case - it's possible to tokenize the profit interests of the investment club entity to create liquidity</p>
+                    </div>
+                    
+                    <div class="card">
+                        <h3>Non-Capital Pooling Clubs</h3>
+                        <p>The club is typically managed by a gatekeeper (typically with an annual subscription or one-time membership fee). Investors in these types of clubs directly make their own capital decisions, and typically join the club for access to higher quality investment opportunities.</p>
+                        <p>Investors maintain full decision control over their capital.</p>
+                        <p>Obvious Web3 Use Case - NFTs generally make sense to gate access to the community.</p>
+                    </div>
+                </div>
+
+                <p>Most investment clubs are member-driven, invite-only, and operated democratically. In the U.S., they're generally unregulated by the SEC if they stay under 100 members, don't charge carried interest, and require all members to participate in decision-making.</p>
+
+                <p>Investment clubs are hard to set up, legally ambiguous, and built with either legacy systems or untested open source code.</p>
+                
+                <ul>
+                    <li>Access is gated: Venture opportunities are often reserved for insiders. Emerging investors and operators are locked out.</li>
+                    <li>Structures are outdated: Most emerging managers use traditional SPVs which are slow, costly, and not designed for technology-native communities.</li>
+                    <li>Liquidity is non-existent: Early-stage VC locks capital for years with little to no flexibility or secondary market.</li>
+                    <li>Coordination is messy: Founders, investors, and operators lack efficient tools to collaborate, track investments, and scale networks.</li>
+                    <li>Transparency is missing: Critical investment data is siloed or opaque, leaving members with little visibility into how decisions are made.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="history" style="background: rgba(212, 175, 55, 0.03);">
+            <div class="container animate-on-scroll">
+                <h2>History of Web3 Community Driven Investing</h2>
+                <p>Since the early days of digital assets, investors have leaned on one-another to further their own understanding of this nascent, fast-evolving asset class. Furthermore, with the integration of AI, the rate of technology innovation has increased by orders of magnitude; making community driven investing and innovation even more attractive and potentially lucrative, to those with an entrepreneurial bug.</p>
+
+                <p>Over the years, there have been many attempts at creating community driven investing organizations, with very few success stories. As a first mover in 2017-2018, MetaCartel4 set the gold standard for what a decentralized venture organization could look like, and also gave birth to the first(and only?) Fund of Funds focused on investment DAOs, Hydra Ventures5. I'd also be remiss not to mention the 2,800 lb gorillas in the room, OrangeDAO6, which raised $80M7 in 2022, and GCR8.</p>
+
+                <p>Besides a small handful of standouts previously mentioned, the Venture DAO space has largely suffered due the following reasons:</p>
+                <ul>
+                    <li>Weakening of the overall DAO narrative in the crypto space: Community driven businesses were forced to shift to sustainable, cash flowing business models.</li>
+                    <li>Lack of reliable software infrastructure: With Syndicate.io exiting the space in 2023.</li>
+                    <li>Lack of clarity around federal crypto regulations in the US: Pushing DAO frameworks off-shore.</li>
+                    <li>Voter Apathy: I'd argue it isn't simple, nor easy, for no-coiners to stay engaged due to market-wide UX barriers related to voting.</li>
+                    <li>Coordination Issues: It is difficult to coordinate and incentivize work in a decentralized manner, especially when the entire team is part-time. Example: LimeDAO9, started by Techstars alumni, failed due to lack of a central backer to help bootstrap the network. There was no formal involvement from Techstars itself.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="future">
+            <div class="container animate-on-scroll">
+                <h2>Future of Community Driven Investing</h2>
+                <p>However, in 2025, Iron Key believes there are various tailwinds that will support the investment club narrative, including:</p>
+
+                <ul>
+                    <li>US crypto regulation outlook appears extremely favorable and innovation-friendly</li>
+                    <li>AGI (Artificial General Intelligence)10 is already here to help solve voter apathy and coordination issues by creating frictionless and engaging participation avenues that integrate with crypto rails.</li>
+                    <li>As web3 and AI technologies begin to work together, investing communities and founders can begin to realize emergent value that is greater than the sum of the individual parts. Furthermore, investment clubs can be fully or partially managed by AGI itself; a notable example is ai16z11.</li>
+                    <li>Real World Assets (RWA) - As more exotic traditional assets start to move on chain, this will create a new market for investment clubs to thrive in other asset classes beyond startup investing.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="iron-key" style="background: rgba(212, 175, 55, 0.03);">
+            <div class="container animate-on-scroll">
+                <h2>Introducing Iron Key Capital's Investment Club</h2>
+                <p>Iron Key Capital Ventures Series 1 LLC (i.e Investment Club) brings together professionals, emerging founders, VCs, and angel investors to invest in the next wave of emerging technology that sits at the intersection of blockchain and AGI*.</p>
+
+                <p>Our club structure brings a new sustainable model to community driven early stage investing, while providing the necessary services required to scale seed stage startups.</p>
+
+                <p>Iron Key's Investment Club, also known as a VentureDAO, fosters a transparent, community-driven model that prioritizes liquidity, innovation, and diversification. The community votes monthly to invest in one high-potential seed stage startup, splitting the upside between Iron Key and its members, and rewarding contributions through a decentralized investment committee.</p>
+
+                <p>Our Investment Committee (IC) consists of investors expanding deal flow opportunities, professionals building venture track records, and founders seeking strategic feedback. Iron Key's club governance includes quarterly-voted roles like Venture Partners and Core Contributors. Its Angel-in-Residence (AIR) Program hones angel investing skills, while the club, inspired by the Service DAO* concept, enables AIR graduates to build a track record in a cost-effective manner.</p>
+
+                <ul>
+                    <li>Service DAO Principles: Modularized roles, transparent governance, and cash flowing verticals are integrated into the community to provide unmatched support for founders.</li>
+                    <li>Community-first: A decentralized LLC where every member can build an investment track record, find a co-founder, and help shape the Web3 / AI startup ecosystem.</li>
+                    <li>Web3-Native: On-chain infrastructure for transparency, speed, lower operational cost, and global accessibility.</li>
+                    <li>Compliance-Ready: Structured from the ground up to meet U.S. legal and tax requirements.</li>
+                    <li>Building Towards Liquid Venture: Creating tools to allow investors diversified venture exposure with liquidity optionality.</li>
+                </ul>
+
+                <p>Our Goal: Empower our community to use its collective intelligence to build a diversified portfolio of high quality seed stage startups building at the intersection of the real world economy and emerging technologies. We seek to provide investors with diversified exposure to early-stage venture capital, mainly because Seed Stage startups are the best way to preserve long duration capital during periods of market uncertainty.</p>
+
+                <div class="highlight-box">
+                    <p>"The smartest capital in the next decade won't just be fast; it will be collective. Iron Key Investment Club exists to give investors an edge, not by chasing trends but by compounding intelligence. We're not building a club. We are building the infrastructure for a new >class of investor. One that earns not just returns, but reputation, network, and leverage.</p>
+                    <p>"We're rewriting how capital is coordinated in the age of AGI and blockchain. Every member becomes a stakeholder, a contributor, and a decision-maker. Because the future of venture isn't gated - it's governed by those who build it."</p>
+                    <p class="author">Joseph Argiro - Founder and CEO, Iron Key Capital</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="why-join">
+            <div class="container animate-on-scroll">
+                <h2>Why Join Iron Key Capital?</h2>
+                <p>Iron Key is preparing to launch its native token, backed by the profit interests of its Investment Club, Iron Key Capital Ventures Series 1 LLC, a member-managed Wyoming LLC.</p>
+            </div>
+        </section>
+
+        <section id="thesis" style="background: rgba(212, 175, 55, 0.03);">
+            <div class="container animate-on-scroll">
+                <h2>Our Investment Thesis</h2>
+                
+                <ul>
+                    <li>Focus: Seed Stage Web3 (blockchain) and AI; solutions that impact real world economic activity</li>
+                    <li>Check Size: $25K to $200K</li>
+                    <li>Ownership Target: 3 to 5%</li>
+                    <li>Contract Type: Equity + Tokens</li>
+                    <li>Regions: U.S. preferred, Latin America, EMEA, Asia</li>
+                    <li>Sectors: Anything driving consumer and enterprise adoption of blockchain; examples include Protocols, APIs, Generative AI, Big Data, IoT (with blockchain components)</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="community">
+            <div class="container animate-on-scroll">
+                <h2>The Community</h2>
+                <p>Iron Key's community brings together five core personas:</p>
+                
+                <ul>
+                    <li>Emerging Managers: Build your own investment club alongside Iron Key Capital.</li>
+                    <li>Investors: Expand deal flow and build your personal angel portfolio.</li>
+                    <li>Professionals: Write your first angel check, sharpen diligence skills, and build a venture track record.</li>
+                    <li>Advisors & Mentors: Help the next generation of founders and investors succeed.</li>
+                    <li>Founders: Get real-time feedback and advisory on your pitch, GTM strategy, and fundraising.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="conclusion" style="background: rgba(212, 175, 55, 0.03);">
+            <div class="container animate-on-scroll">
+                <h2>Conclusion</h2>
+                <p>Underwhelmed by web3 innovation to date in compliant capital formation, Iron Key has decided to throw its hat in the ring by creating Fish Network; software to bring emerging managers on-chain through community enablement. Leveraging its investment club structure, Fish Network is uniquely positioned to unlock active investor capital at the margin by creating an ecosystem to serve the operational and capital needs of Seed stage startups. This flywheel becomes sustainable by offering investors a more capital efficient and differentiated diversification approach, all while developing a breeding ground for emerging managers to drive thesis-driven innovation.</p>
+
+                <div class="highlight-box">
+                    <p>"Though tempting, trying to time the market is a loser's game. $10,000 continuously invested in the market over the past 20 years grew to $63,636. If you missed just the best 30 days, your investment was reduced to $11,484.1"</p>
+                    <p class="author">Christopher Dixon, General Partner at a16z</p>
+                </div>
+
+                <p>Dollar Cost Averaging(DCA) has previously only been applied in practice to public markets investing. As Fish Network, we extend this concept to private markets, enabling retail investors seamless access to sophisticated portfolio construction tools and techniques.</p>
+
+                <p>If you'd like to learn more about joining Iron Key's investment club, please contact us here. The minimum check size is $10k USD.</p>
+
+                <p>If you'd like to learn more about building your own investment club, please contact us here.</p>
+            </div>
+        </section>
+
+        <section id="faq">
+            <div class="container animate-on-scroll">
+                <h2>Glossary and FAQ</h2>
+                
+                <div class="faq-item">
+                    <h4>1. Why do people join investment clubs?</h4>
+                    <p>Some common reasons include increased buying power (similar to a syndicate), reduced transaction costs, shared risk, and networking or learning opportunities around wealth creation.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>2. Why should i join the iron key investment club?</h4>
+                    <p>The main selling points for Iron Key's club for investors is Diversification Lower cost than an SPV For founders and professionals, reasons to join include Building your investor network and track record Learn how to bootstrap your own investor community to eventually launch your own fund Get a job or advisory gig at a startup or VC in our network</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>3. What is Carried Interest?</h4>
+                    <p>Carried Interest is a traditional mechanism for fund managers to make profits if investments perform well. Carried interest is a share of a fund's profits, typically 20 percent, earned by venture capital fund managers after returning capital and a minimum return (hurdle rate) to investors. It aligns the fund manager's incentives with the fund's performance and is usually taxed at the lower capital gains rate.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>4. Do you charge carried interest?</h4>
+                    <p>No, we do not charge traditional carried interest in our investment club. Instead, we reward active contributors through a points-based system and tokenized equity that reflects their participation, deal sourcing, and support. This structure allows members to earn ownership and upside based on contribution, not management fees - creating a more community-aligned and transparent model for early-stage investing.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>5. What is AGI?</h4>
+                    <p>AGI (Artificial General Intelligence) refers to a theoretical form of AI that can understand, learn, and apply knowledge across a wide range of tasks, just like a human. Unlike narrow AI, which is trained for specific functions, AGI would be able to self-teach, adapt to new problems, and operate in any domain without needing additional training. While today's AI systems are examples of "narrow" or "weak" AI, highly effective but limited to specific tasks - AGI represents "strong" AI, capable of general reasoning, problem-solving, and comprehension across disciplines.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>6. What is a Service DAO?</h4>
+                    <p>A Service DAO is a decentralized, community-driven organization that provides specialized services such as development, legal, marketing, or operations to other DAOs and Web3 projects. Unlike traditional agencies, Service DAOs coordinate work and reward contributors using token incentives and on-chain governance. This model creates stronger alignment between contributors and clients by promoting transparency, ownership, and shared incentives. As outlined in Hydra's whitepaper and the Thing3 initiative, Service DAOs are becoming a core part of the Web3 ecosystem by supporting the growth of Venture DAOs and decentralized investment communities.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="disclaimer">
+                <h3 style="color: var(--accent); margin-bottom: 1rem;">Disclaimer</h3>
+                <p>This thesis is intended solely for informational and educational purposes and does not constitute an offer, solicitation, or recommendation to buy or sell any securities, financial products, or instruments, nor should it be construed as investment advice, legal advice, tax advice, or a guarantee of future performance. The information contained in this document is based on sources believed to be reliable and accurate at the time of writing. However, no representation or warranty, express or implied, is made as to the accuracy, completeness, or reliability of the information, and the author(s) and publisher disclaim all liability for any direct or indirect loss or damage arising from reliance on such information. Investing involves risks, including the potential loss of principal. Past performance is not indicative of future results. Readers are strongly encouraged to consult with a qualified financial advisor or other professional before making any investment decisions. Any opinions, projections, or forward-looking statements expressed in this thesis reflect the views of the author(s) as of the date of publication and are subject to change without notice.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Scroll animation observer
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.animate-on-scroll').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Add parallax effect to background
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const parallax = document.querySelector('body::before');
+            if (parallax) {
+                document.body.style.setProperty('--scroll', scrolled * 0.5 + 'px');
+            }
+        });
+    </script>
+</body>
+</html>
