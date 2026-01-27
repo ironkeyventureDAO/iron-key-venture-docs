@@ -5,43 +5,51 @@ sidebar_position: 3.13
 # Our Business Development Committee
 
 :::tip Purpose
-💡 The purpose of this page is to document, track, and track all business development activity for Iron Key. This page will be updated and managed by the Head of Business Development at Iron Key.
+💡 The purpose of this page is to document, track, and manage all business development activity for Iron Key. This page is maintained by the Head of Business Development and serves as the source of truth for BD strategy, execution, and resources.
 :::
 
 ---
 
 ## The Importance of Business Development to a VentureDAO
 
-A VentureDAO needs a business development committee to scale up to launch a venture capital fund from institutional investors for several critical reasons:
+A VentureDAO requires a dedicated business development committee to scale effectively and ultimately launch a venture capital fund backed by institutional investors.
 
-**Strategic Planning and Growth**: A business development committee can help set clear strategic goals and growth plans for the VentureDAO. This includes identifying potential markets, setting investment criteria, and planning for long-term sustainability. This strategic oversight is crucial for attracting institutional investors who seek well-defined and sustainable growth trajectories.
+**Strategic Planning and Growth**  
+The business development committee establishes clear strategic goals, growth initiatives, and long-term planning. This includes identifying priority markets, defining investment theses, and aligning execution with sustainable growth objectives—key factors institutional investors evaluate.
 
-**Compliance and Due Diligence**: Institutional investors have stringent compliance and due diligence requirements. The business development committee can ensure that the VentureDAO meets all necessary regulatory standards and prepares thorough due diligence documentation. This can include financial statements, legal documentation, and operational procedures, which are critical for gaining the confidence of institutional investors.
+**Compliance and Due Diligence**  
+Institutional capital comes with strict compliance expectations. The committee ensures readiness across regulatory requirements, due diligence materials, internal processes, and documentation—helping build institutional trust and credibility.
 
-**Building Relationships**: Institutional investors often require a higher level of trust and relationship management compared to individual investors. A dedicated business development committee can focus on building and maintaining these relationships, ensuring that the VentureDAO's goals align with the expectations of institutional partners.
+**Relationship Management**  
+Institutional investors expect consistent, high-quality engagement. A dedicated committee enables structured relationship building, ongoing communication, and alignment between investor expectations and DAO operations.
 
-**Networking and Partnerships**: Business development involves creating strategic partnerships and networks that can provide additional value to the VentureDAO. These partnerships can include industry experts, legal advisors, and financial consultants who can offer guidance and support. The committee can also identify and leverage synergies with other venture funds or organizations to enhance the VentureDAO's overall capabilities.
+**Networking and Strategic Partnerships**  
+Business development extends beyond capital. The committee identifies and builds partnerships with industry operators, advisors, service providers, and aligned funds to strengthen Iron Key’s ecosystem and operational leverage.
 
-**Market Research and Analysis**: To successfully attract institutional investors, the VentureDAO needs to provide comprehensive market research and analysis. The business development committee can take charge of gathering and analyzing market data, identifying investment opportunities, and assessing risks. This information is essential for making informed decisions and presenting a compelling case to potential investors.
+**Market Research and Analysis**  
+Institutional investors expect rigorous market insight. The committee leads research, opportunity analysis, competitive positioning, and risk assessment to support investment decisions and fundraising narratives.
 
-**Fundraising and Pitching**: Launching a venture capital fund requires significant fundraising efforts. The business development committee can spearhead these efforts by developing and refining pitch decks, organizing fundraising events, and engaging with potential investors. Their expertise in presenting the VentureDAO's value proposition can greatly enhance the chances of securing funding.
+**Fundraising and Pitch Execution**  
+Launching and scaling a venture fund requires disciplined fundraising. The committee owns pitch development, outreach strategy, investor targeting, and fundraising coordination.
 
-**Communication and Transparency**: Effective communication and transparency are key to maintaining investor confidence. The business development committee can develop and implement communication strategies that keep institutional investors informed about the VentureDAO's activities, performance, and future plans. Regular updates, reports, and transparent communication channels can help build trust and credibility.
+**Communication and Transparency**  
+Clear, consistent communication builds confidence. The committee ensures transparency through structured updates, reporting, and open communication channels with stakeholders and partners.
 
-In summary, a business development committee is essential for a VentureDAO to successfully scale up and attract institutional investors for a venture capital fund. Their role in strategic planning, relationship building, market analysis, fundraising, compliance, networking, and communication provides a strong foundation for the VentureDAO's growth and success.
+In summary, the Business Development Committee is a foundational pillar for Iron Key’s ability to scale, attract institutional capital, and operate as a credible, execution-driven VentureDAO.
 
 ---
 
-## Business Development Resources
+## Business Development Resources (Planned)
 
-[**Marketing Ammunition Vault →**](./marketing-ammunition-vault)
+The following resources are **planned and under development**. This section will be updated as materials are finalized and published.
 
-[**Outreach Scripts →**](./outreach-scripts)
+- Marketing & Fundraising Assets
+- Outreach & Relationship Playbooks
+- General Application & Intake Forms
+- Brand & Messaging Guidelines
+- Investor Referral Workflows
+- Influencer & Media Operations
 
-[**General Application Form →**](./general-application-form)
-
-[**Branding Overview →**](./branding-overview)
-
-[**Investor Referral Form →**](./investor-referral-form)
-
-[**Iron Key Influencer Operations →**](./iron-key-influencer-operations)
+:::note
+Links will be added once each resource is finalized and approved.
+:::
