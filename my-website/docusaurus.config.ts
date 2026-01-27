@@ -22,7 +22,7 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'ironkeyventureDAO', // Usually your GitHub org/user name.
+  organizationName: 'ironkeyventuredao', // Usually your GitHub org/user name.
   projectName: 'iron-key-venture-docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
