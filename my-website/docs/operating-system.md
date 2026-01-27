@@ -31,15 +31,10 @@ A Venture Decentralized Autonomous Organization (VentureDAO) requires an efficie
 ## Importance of Documenting Processes and SOPs for a VentureDAO and Web3 Angel Syndicate
 
 A Venture Decentralized Autonomous Organization (VentureDAO) requires an efficient and scalable operating system to successfully launch a venture capital fund from institutional investors. Here are several reasons why:
-
 1. **Knowledge Transfer**: As members come and go, documented processes and SOPs ensure that critical knowledge and best practices are retained within the organization, facilitating smooth transitions and continuous improvement.
-
 2. **Accountability and Auditability**: Documented procedures provide a clear trail of actions and decisions, which is essential for accountability and auditing purposes. This is crucial for maintaining investor confidence and meeting regulatory requirements.
-
 3. **Strategic Planning and Innovation**: By documenting and reviewing processes, a VentureDAO can identify areas for improvement and innovation. This iterative approach to process optimization supports the strategic growth and adaptability of the organization.
-
 4. **Risk Management**: Well-documented processes help in identifying potential risks and implementing mitigation strategies. This is particularly important in the volatile and rapidly evolving Web3 and venture capital landscapes.
-
 5. **Performance Tracking and Reporting**: An operating system enables real-time tracking of performance metrics and financial reports, which are crucial for making informed decisions and demonstrating value to investors.
 
 ---
@@ -50,18 +45,4 @@ In conclusion, an operating system is vital for a VentureDAO to scale effectivel
 
 ## Operating Resources
 
-[**DAO Operating Manual →**](./dao-operating-manual)
-
-[**Iron Key Venture Partners LLC →**](./iron-key-venture-partners-llc)
-
-[**DAO Public Page Ideas - MVP 2.0 →**](./dao-public-page-ideas)
-
-[**DAO Governance →**](./dao-governance)
-
-[**DAO Member Onboarding →**](./dao-member-onboarding)
-
-[**Iron Key Core Team Directory →**](./iron-key-core-team-directory)
-
-[**Web3 Consulting Sales SOP →**](./web3-consulting-sales-sop)
-
-[**Iron Key X & LinkedIn Content Strategy →**](./iron-key-content-strategy)
+*Documentation for operating resources is currently being developed and will be added here.*
