@@ -235,11 +235,11 @@ We look forward to creating an exceptional experience for you and your audience.
 
 ## Media Resources
 
-[**Iron Key AMA Schedule →**](./iron-key-ama-schedule)
+[**Iron Key AMA Schedule →**]
 
-[**Iron Key AMA Database →**](./iron-key-ama-database)
+[**Iron Key AMA Database →**]
 
-[**Iron Key Media Manager →**](./iron-key-media-manager)
+[**Iron Key Media Manager →**]
 
 ---
 
@@ -247,20 +247,19 @@ We look forward to creating an exceptional experience for you and your audience.
 
 Use the following email templates to effectively communicate with potential guests you want on the podcast:
 
-[**Initial Contact Email →**](./initial-contact-email)
+[**Initial Contact Email →**]
 
-[**Follow-Up Email →**](./follow-up-email)
+[**Follow-Up Email →**]
 
-[**Confirmation Email →**](./confirmation-email)
+[**Confirmation Email →**]
 
 ---
 
 ## Media Databases
 
-[**Podcast Episodes →**](./podcast-episodes)
+[**Podcast Episodes →**]
 
-[**Guests →**](./guests)
+[**Guests →**]
 
-:::info Notion Tip
 💡 **Notion Tip**: The Analytics database is view-only. This means that you cannot edit the numbers directly in this database. To update your stats, please use the three databases listed below.
 :::
