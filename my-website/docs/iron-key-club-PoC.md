@@ -1,4 +1,10 @@
-Introduction to Investment Clubs
+---
+sidebar_label: Iron Key Capital PoC
+sidebar_position: 99
+---
+
+# Introduction to Investment Clubs
+
 Investment Clubs are groups of people who come together to pool capital, share ideas, and invest collaboratively across various asset classes. Investment clubs provide a simple, cost effective vehicle for investor communities and new fund managers to build and activate networks.
 
 Unknown to many average investors, Investment Clubs have existed for centuries(https://en.wikipedia.org/wiki/Investment_club). The most popular investment club that most people will recognize is Jim Cramer on CNBC, which is non-capital pooling club. However, investment clubs have largely been untapped as a reliable capital formation tool in the 21st Century, due to the following two reasons.
