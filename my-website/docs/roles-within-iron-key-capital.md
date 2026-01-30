@@ -24,9 +24,9 @@ AIR Fellows want to learn the 0 to 1 angel investor skillset or break into VC. A
 
 ---
 
-## 👥 Venture Builders
+## 👥 Operating Partners
 
-Venture Builders are typically founders or technical talent who want to build something new and find early supporters. Venture Builders typically are repeat founders, or have spent too long at a FAANG company. Builders have direct access to the web3 / AI innovation at our Venture Studio, as well as the broader investor community.
+Operating Partners are typically founders or technical talent who want to build something new and find early supporters. Operating Partners typically are repeat founders, or have spent too long at a FAANG company. Partners have direct access to the web3 / AI innovation at our Venture Studio, as well as the broader investor community.
 
 [**Apply here →**](https://airtable.com/appfCDlkorF5FL3VZ/paggWhwbIDwnmlzlK/form)
 
@@ -34,7 +34,7 @@ Venture Builders are typically founders or technical talent who want to build so
 
 ## 👥 Entrepreneur in Residence (EIRs)
 
-EIR is a paid, invite only role within Iron Key's parent company, for those who want to build something new that is strategic to our mission of re-building financial services from the ground up. EIRs are typically repeat founders, and can bring a product vision to life. EIR positions are currently invite only, and typically originate from our pool of Venture Builders.
+EIR is a paid, invite only role within Iron Key's parent company, for those who want to build something new that is strategic to our mission of re-building financial services from the ground up. EIRs are typically repeat founders, and can bring a product vision to life. EIR positions are currently invite only, and typically originate from our pool of Operating Partners.
 
 [**Apply here →**](https://tally.so/r/mYdlg5)
 

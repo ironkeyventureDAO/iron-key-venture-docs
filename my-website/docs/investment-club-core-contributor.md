@@ -2,7 +2,7 @@
 sidebar_position: 8
 ---
 
-# Investment Club Core Contributor Page
+# Investment Club Core Contributor
 
 **Core Contributors** in the Iron Key Venture DAO have equity in the DAO for serving in specific long-term roles. We are a strong team of 8 members and always looking to add high-quality web3 talent! If you don't see a role, feel free to apply and tell us how you'd like to fit in.
 

@@ -38,7 +38,7 @@ Iron Key brings together a vetted network of venture professionals to invest thr
 
 ## ⚙️ Operating System
 
-[**Operating System →**](https://www.notion.so/Operating-System-049f6b1224954c47aa7faa18d7b642a0?pvs=21)
+[**Operating System →**](./operating-system)
 
 ---
 
@@ -78,9 +78,9 @@ Iron Key brings together a vetted network of venture professionals to invest thr
 
 ## 💵 Our Business Dev Committee
 
-[**Our Business Development Committee →**](./business-development-committee)
+[**Our Business Development Committee →**](https://www.notion.so/Our-Business-Development-Committee-7d006e8333d84b69bc0cb302d6e64442?pvs=21)
 
-[**Iron Key Media →**](./iron-key-media)
+[**Iron Key Media →**](https://www.notion.so/Iron-Key-Media-5aeb5d3bb29f4964b8b81196150dc347?pvs=21)
 
 ---
 

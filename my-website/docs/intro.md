@@ -23,7 +23,7 @@ sidebar_position: 1
 
 ---
 
-- [Investment Club Core Contributor Page](./investment-club-core-contributor)
+- [Investment Club Core Contributor](./investment-club-core-contributor)
 
 ---
 

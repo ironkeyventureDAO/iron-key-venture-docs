@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4.6
+sidebar_position: 4.12
 ---
 
 # Get involved with Iron Key Capital

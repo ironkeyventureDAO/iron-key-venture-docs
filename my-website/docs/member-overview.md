@@ -13,5 +13,3 @@ Iron Key enables a variety of talented individuals to drive the progress of our 
 - 🤝 [Culture of Meetings](./culture-of-meetings)
 - 🚀 [Onboarding Members](./onboarding-members)
 - 💬 [How to Leverage Our Discord](./how-to-leverage-our-discord)
-- 🔴 [Get involved with Iron Key Capital](./get-involved-with-iron-key-capital)
-- 🔴 [Investor Roles within Iron Key Capital](./investor-roles-within-iron-key-capital)

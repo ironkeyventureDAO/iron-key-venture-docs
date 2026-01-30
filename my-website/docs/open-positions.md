@@ -14,7 +14,7 @@ We're always looking for talented individuals to join our team. Explore our curr
 <h3 style={{marginTop: 0}}>📱 Social Media Analyst</h3>
 <p style={{color: 'var(--ifm-color-emphasis-700)', marginBottom: '1rem'}}>Community • USA • Education</p>
 <p>We're looking for a creative and data-driven Social Media Analyst to grow our online presence, engage with our community, and amplify our brand across platforms.</p>
-<a href="https://baserow.io/form/YOUR_SOCIAL_MEDIA_FORM_ID" target="_blank" rel="noopener noreferrer" style={{display: 'inline-block', marginTop: '1rem', padding: '0.5rem 1rem', backgroundColor: 'var(--ifm-color-primary)', color: 'white', borderRadius: '4px', textDecoration: 'none', fontWeight: 'bold'}}>
+<a href="https://baserow-1huu.onrender.com/form/WeBCep7eG_qWiqhWbLFmOpB90BfA4wwLM_UETGFMq5s" target="_blank" rel="noopener noreferrer" style={{display: 'inline-block', marginTop: '1rem', padding: '0.5rem 1rem', backgroundColor: 'var(--ifm-color-primary)', color: 'white', borderRadius: '4px', textDecoration: 'none', fontWeight: 'bold'}}>
 Apply Now →
 </a>
 </div>
@@ -23,7 +23,7 @@ Apply Now →
 <h3 style={{marginTop: 0}}>🔍 Venture Scout</h3>
 <p style={{color: 'var(--ifm-color-emphasis-700)', marginBottom: '1rem'}}>Community • USA • Business Development</p>
 <p>Join our team as a Venture Scout to identify promising startups, build relationships with founders, and bring quality deal flow to our investment committee.</p>
-<a href="https://baserow.io/form/YOUR_VENTURE_SCOUT_FORM_ID" target="_blank" rel="noopener noreferrer" style={{display: 'inline-block', marginTop: '1rem', padding: '0.5rem 1rem', backgroundColor: 'var(--ifm-color-primary)', color: 'white', borderRadius: '4px', textDecoration: 'none', fontWeight: 'bold'}}>
+<a href="https://baserow-1huu.onrender.com/form/WeBCep7eG_qWiqhWbLFmOpB90BfA4wwLM_UETGFMq5s" target="_blank" rel="noopener noreferrer" style={{display: 'inline-block', marginTop: '1rem', padding: '0.5rem 1rem', backgroundColor: 'var(--ifm-color-primary)', color: 'white', borderRadius: '4px', textDecoration: 'none', fontWeight: 'bold'}}>
 Apply Now →
 </a>
 </div>
@@ -32,7 +32,7 @@ Apply Now →
 <h3 style={{marginTop: 0}}>💻 Software Engineer</h3>
 <p style={{color: 'var(--ifm-color-emphasis-700)', marginBottom: '1rem'}}>Engineering • Remote • Full-time</p>
 <p>We're seeking talented software engineers to build innovative Web3 and AI solutions. Experience with blockchain, smart contracts, or AI/ML is a plus.</p>
-<a href="https://baserow.io/form/YOUR_ENGINEER_FORM_ID" target="_blank" rel="noopener noreferrer" style={{display: 'inline-block', marginTop: '1rem', padding: '0.5rem 1rem', backgroundColor: 'var(--ifm-color-primary)', color: 'white', borderRadius: '4px', textDecoration: 'none', fontWeight: 'bold'}}>
+<a href="https://baserow-1huu.onrender.com/form/WeBCep7eG_qWiqhWbLFmOpB90BfA4wwLM_UETGFMq5s" target="_blank" rel="noopener noreferrer" style={{display: 'inline-block', marginTop: '1rem', padding: '0.5rem 1rem', backgroundColor: 'var(--ifm-color-primary)', color: 'white', borderRadius: '4px', textDecoration: 'none', fontWeight: 'bold'}}>
 Apply Now →
 </a>
 </div>
@@ -41,6 +41,3 @@ Apply Now →
 
 ---
 
-:::info Note
-Please replace the Baserow form IDs in the links above with your actual form URLs.
-:::

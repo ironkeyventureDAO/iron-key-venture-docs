@@ -117,8 +117,8 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Discord',
-              href: 'https://discord.gg/ironkey',
+              label: 'Telegram',
+              href: 'https://t.me/ironkeycapital',
             },
             {
               label: 'X (Twitter)',
