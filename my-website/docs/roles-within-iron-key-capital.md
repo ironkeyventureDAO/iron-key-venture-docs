@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4.1
+sidebar_position: null
 ---
 
 # Roles within Iron Key Capital
