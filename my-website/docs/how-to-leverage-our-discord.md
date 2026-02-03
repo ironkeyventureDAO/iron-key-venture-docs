@@ -1,5 +1,5 @@
 ---
-sidebar_position: null
+unlisted: true
 ---
 
 # How to Leverage Our Discord

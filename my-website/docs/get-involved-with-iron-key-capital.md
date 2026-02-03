@@ -1,5 +1,5 @@
 ---
-sidebar_position: null
+unlisted: true
 ---
 
 # Get involved with Iron Key Capital
